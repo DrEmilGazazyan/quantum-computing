@@ -21,6 +21,3 @@ t_span = [0, 10] # Интервал интегрирования
 
 # Решение системы уравнений
 sol = solve_ivp(system_of_equations, t_span, r0, 'RK45', args=(W, G, gam, delt))
-
-
-
